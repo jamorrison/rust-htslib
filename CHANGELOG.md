@@ -2,6 +2,25 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.42.0](https://github.com/rust-bio/rust-htslib/compare/v0.41.1...v0.42.0) (2023-03-30)
+
+
+### Features
+
+* Add ability to fetch number of sequences and I-th sequence from FAI index ([#377](https://github.com/rust-bio/rust-htslib/issues/377)) ([6ecc4bd](https://github.com/rust-bio/rust-htslib/commit/6ecc4bd1f88110da278c7f934453024e4e64ac74))
+
+## [0.41.1](https://github.com/rust-bio/rust-htslib/compare/v0.41.0...v0.41.1) (2023-03-03)
+
+### Features
+
+* Revised calculation of leading- and trailing-softclips ([#375](https://github.com/rust-bio/rust-htslib/issues/375)) ([b61dd2c](https://github.com/rust-bio/rust-htslib/commit/b61dd2cfb2b74c0180f2d76bbd4ed4eb14fa09b3))
+
+
+### Performance Improvements
+
+* update htslib and corresponding bindings to 1.16 ([#366](https://github.com/rust-bio/rust-htslib/issues/366)) ([f597ce0](https://github.com/rust-bio/rust-htslib/commit/f597ce0451e3f3c393166a7291486bbc2bde4c39))
+
+
 ## [0.40.2](https://github.com/rust-bio/rust-htslib/compare/rust-htslib-v0.40.1...rust-htslib-v0.40.2) (2022-10-13)
 
 
